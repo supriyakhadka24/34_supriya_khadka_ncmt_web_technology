@@ -1,1 +1,72 @@
+Name: Supriya Khadka                                                                                Date: 2025/12/19
+Roll: 34                                                                                            Program: BIT
+
+CHAPTER 1: AN OVERVIEW OF THE INTERNET AND THE WEB
+
+Group-A: Short Questions (2marks)
+
+1.Define the term “Protocol” in the context of the Internet.
+	A protocol is a set of rules that define how data is transmitted, received, and interpreted over the internet. It ensures proper communication between devices. Eg: HTTP, FTP, TCP/IP.
+
+2.What is the primary difference between a Web Browser and a Search Engine?
+	A web browser is software used to access and view websites (e.g., Chrome, Firefox).
+	A search engine is a service that helps users find information on the web (e.g., Google, Bing).
+
+3.Define the World Wide Web (WWW).
+	The World Wide Web (WWW) is a collection of interconnected web pages and resources accessed through the Internet using web browsers and URLs.
+	The WWW is not the Internet itself, but rather a vast application and service that runs on the Internet’s infrastructure.
+
+4.Distinguish between a static web page and a dynamic web page.
+	Static Web Page: The content of a static web page does not change.
+It only uses HTML/CSS. It is same for all the users. The content can only be changed manually by a developer.
+	Dynamic Web Page: The content changes based on user input. It uses server-side scripting. It is different for different users. The content can change based on user interactions, login status, location, etc.
+
+      
+Group-B: Long Questions (4marks)
+
+5.Explain the client-server architecture of the web with a neat diagram.
+	The client-server architecture is a web communication model in which tasks are divided between clients and servers.
+	A client is usually a web browser (such as Chrome or Firefox) that sends a request for information. A server is a powerful computer that stores websites and processes requests from clients.
+	 The client sends a request using HTTP.
+	The server processes the request.
+	The server sends the response back to the client
+	Diagram (text form):
+Client (Browser) → Request → Server
+Client (Browser) ← Response ← Server
+
+6.Describe the functions of the following Internet services: Email, FTP, and VoIP.
+	Email (Electronic Mail): Email is used to send and receive electronic messages over the Internet. It allows users to communicate quickly, share documents, images, and other files, and send messages to one or many recipients at the same time.
+	FTP (File Transfer Protocol):
+FTP is used to transfer files between computers on a network. It allows users to upload files to a server and download files from it, commonly used for website file management and large data transfers.
+	VoIP (Voice over Internet Protocol):
+VoIP enables voice and video communication over the Internet instead of traditional telephone lines. It allows users to make voice calls, video calls, and conferences at a lower cost using applications like Skype or WhatsApp.
+
+ 
+7.“The Internet is a network of networks.” Elaborate on this statement explaining how packet switching works.
+The Internet is called a network of networks because it connects millions of smaller networks such as home networks, office networks, and ISP networks across the world. These independent networks are linked together to allow global communication and data sharing.
+To transmit data efficiently, the Internet uses a technique called packet switching. In packet switching, large data is divided into small units called packets. Each packet contains the source address, destination address, and sequence information.
+These packets travel independently through different routes across the network depending on traffic conditions. At the destination, all packets are reassembled in the correct order to recreate the original data.
+Packet switching makes the Internet faster, more reliable, and efficient because if one path fails, packets can be sent through alternative routes.
+
+Group-C: Scenario-Based Questions (5marks)
+
+8.A startup company wants to host a website that displays the same information to all visitors and requires very low maintenance costs. However, they are being advised to use a dynamic website. As a consultant, would you agree? Justify your answer.
+As a consultant, I would not agree with using a dynamic website for this requirement.
+Since the website displays the same information to all visitors, a static website is more suitable. Static websites have fixed content and do not require server-side processing or databases. This makes them cheaper to host, faster to load, and easier to maintain.
+Dynamic websites are useful when content changes frequently or depends on user interaction, such as login systems or personalized data. In this case, those features are unnecessary and would increase development complexity and maintenance costs.
+Therefore, a static website is the best choice for the startup as it meets the requirements of low cost, low maintenance, and consistent content delivery.
+
+
+9.A user types vvv.google .com into their browser, but the browser displays a "Server Not Found" error, even though the internet connection is active. However, accessing the site via 142.250.190.46 works. Diagnose the problem and explain the underlying technology that failed.
+The issue occurs due to a DNS (Domain Name System) resolution problem, not because of an internet connection failure.
+When the user types vvv.google.com into the browser, the browser tries to find the IP address of that website using DNS. DNS is responsible for converting website names that humans can read (like google.com) into IP addresses that computers use to communicate. Since vvv.google.com is not a valid or registered domain name, the DNS server cannot find any matching IP address. Because of this, the browser displays a “Server Not Found” error.
+However, when the user accesses the website using 142.250.190.46, the site opens correctly. This is because the IP address directly points to Google’s server, so the browser does not need to use DNS to locate the website. It connects straight to the server without any problem.
+In conclusion, the problem is caused by a DNS name resolution failure due to an incorrect domain name, while the internet connection itself is working properly.
+
+
+10.A multinational corporation wants to share sensitive inventory data with specific suppliers but does not want this information available to the general public. Explain which network type (Intranet, Extranet, or Internet) they should implement and why.
+The company should implement an Extranet for this purpose.
+An extranet is a private network that allows an organization to share selected information with external parties, such as suppliers or business partners, in a secure way. Since the inventory data is sensitive, it should not be accessible to the general public. At the same time, the suppliers still need controlled access to this information, which an extranet provides.
+An intranet would not be suitable because it is only accessible to internal employees of the company. On the other hand, using the internet would make the information available to everyone, which is not secure and could lead to data leaks.
+Therefore, an extranet is the best choice because it ensures restricted, secure access to specific suppliers while keeping the data protected from the public.
 
